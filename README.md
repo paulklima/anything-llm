@@ -100,6 +100,7 @@ Some cool features of AnythingLLM
 - [LocalAi (all)](https://localai.io/)
 - [Ollama (all)](https://ollama.ai/)
 - [LM Studio (all)](https://lmstudio.ai)
+- [Mistral](https://mistral.ai/)
 - [Cohere](https://cohere.com/)
 
 **Audio Transcription models:**

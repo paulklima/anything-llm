@@ -1230,6 +1230,17 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.22.3"
 
+"@langchain/mistralai@^0.0.27":
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/@langchain/mistralai/-/mistralai-0.0.27.tgz#2906f4dbade4e623e583bfcfee2f12dbd6eeaeb0"
+  integrity sha512-dMFqUanzrNyFjMZ2PyVbu37lHOSeWfhYsrZqwbgavEu6/WPP4RJW9SvsKJ4pyDd2KF4eoTg+GmkFvluuTDiWOg==
+  dependencies:
+    "@langchain/core" ">=0.2.16 <0.3.0"
+    "@mistralai/mistralai" "^0.4.0"
+    uuid "^10.0.0"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.22.4"
+
 "@langchain/openai@0.0.28", "@langchain/openai@~0.0.28":
   version "0.0.28"
   resolved "https://registry.yarnpkg.com/@langchain/openai/-/openai-0.0.28.tgz#afaeec61b44816935db9ae937496c964c81ab571"
@@ -1286,6 +1297,13 @@
   integrity sha512-cwAvW1aB+/nu8QvkCDnLzav9UOAAlRz042PYHh/bS7z4xpucKP2c002+ZbrW6+flA8qIwoBn3FrSjLCHj7Pi2w==
   dependencies:
     ws "^7.5.10"
+
+"@mistralai/mistralai@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@mistralai/mistralai/-/mistralai-0.4.0.tgz#77ded49e7869a4119988f47ce347c347ab41571e"
+  integrity sha512-KmFzNro1RKxIFh19J3osmUQhucefBBauMXN5fa9doG6dT9OHR/moBvvn+riVlR7c0AVfuxO8Dfa03AyLYYzbyg==
+  dependencies:
+    node-fetch "^2.6.7"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

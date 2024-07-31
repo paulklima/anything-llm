@@ -191,6 +191,9 @@ function getEmbeddingEngineSelection() {
         GenericOpenAiEmbedder,
       } = require("../EmbeddingEngines/genericOpenAi");
       return new GenericOpenAiEmbedder();
+    case "mistral":
+      const { MistralEmbedder} = require("../EmbeddingEngines/mistral");
+      return new MistralEmbedder();
     default:
       return new NativeEmbedder();
   }

@@ -31,6 +31,7 @@
     "@langchain/aws": "^0.0.5",
     "@langchain/community": "0.0.53",
     "@langchain/core": "0.1.61",
+    "@langchain/mistralai": "^0.0.27",
     "@langchain/openai": "0.0.28",
     "@langchain/textsplitters": "0.0.0",
     "@mintplex-labs/bree": "^9.2.5",

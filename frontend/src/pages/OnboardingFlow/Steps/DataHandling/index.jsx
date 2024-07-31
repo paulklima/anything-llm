@@ -323,6 +323,14 @@ export const EMBEDDING_ENGINE_PRIVACY = {
     ],
     logo: GenericOpenAiLogo,
   },
+  mistral: {
+    name: "Mistral",
+    description: [
+      "Your document text is sent to Mistral servers",
+      "Your documents are not used for training",
+    ],
+    logo: MistralLogo,
+  },
 };
 
 export default function DataHandling({ setHeader, setForwardBtn, setBackBtn }) {
