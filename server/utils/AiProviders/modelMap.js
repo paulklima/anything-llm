@@ -7,9 +7,16 @@ const MODEL_MAP = {
     "claude-instant-1.2": 100_000,
     "claude-2.0": 100_000,
     "claude-2.1": 200_000,
-    "claude-3-opus-20240229": 200_000,
-    "claude-3-sonnet-20240229": 200_000,
     "claude-3-haiku-20240307": 200_000,
+    "claude-3-sonnet-20240229": 200_000,
+    "claude-3-opus-20240229": 200_000,
+    "claude-3-haiku-20240307": 200_000,
+    "claude-3-sonnet-20240229": 200_000,
+    "claude-3-opus-latest": 200_000,
+    "claude-3-5-haiku-latest": 200_000,
+    "claude-3-5-haiku-20241022": 200_000,
+    "claude-3-5-sonnet-latest": 200_000,
+    "claude-3-5-sonnet-20241022": 200_000,
     "claude-3-5-sonnet-20240620": 200_000,
   },
   cohere: {
@@ -52,6 +59,17 @@ const MODEL_MAP = {
     "gpt-4-turbo-preview": 128_000,
     "gpt-4": 8_192,
     "gpt-4-32k": 32_000,
+    "o1-preview": 128_000,
+    "o1-preview-2024-09-12": 128_000,
+    "o1-mini": 128_000,
+    "o1-mini-2024-09-12": 128_000,
+  },
+  deepseek: {
+    "deepseek-chat": 128_000,
+    "deepseek-coder": 128_000,
+  },
+  xai: {
+    "grok-beta": 131_072,
   },
 };
 

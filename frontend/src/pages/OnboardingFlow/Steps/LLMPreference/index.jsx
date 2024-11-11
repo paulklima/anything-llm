@@ -20,6 +20,10 @@ import KoboldCPPLogo from "@/media/llmprovider/koboldcpp.png";
 import TextGenWebUILogo from "@/media/llmprovider/text-generation-webui.png";
 import LiteLLMLogo from "@/media/llmprovider/litellm.png";
 import AWSBedrockLogo from "@/media/llmprovider/bedrock.png";
+import DeepSeekLogo from "@/media/llmprovider/deepseek.png";
+import APIPieLogo from "@/media/llmprovider/apipie.png";
+import NovitaLogo from "@/media/llmprovider/novita.png";
+import XAILogo from "@/media/llmprovider/xai.png";
 
 import CohereLogo from "@/media/llmprovider/cohere.png";
 import OpenAiOptions from "@/components/LLMSelection/OpenAiOptions";
@@ -43,6 +47,10 @@ import KoboldCPPOptions from "@/components/LLMSelection/KoboldCPPOptions";
 import TextGenWebUIOptions from "@/components/LLMSelection/TextGenWebUIOptions";
 import LiteLLMOptions from "@/components/LLMSelection/LiteLLMOptions";
 import AWSBedrockLLMOptions from "@/components/LLMSelection/AwsBedrockLLMOptions";
+import DeepSeekOptions from "@/components/LLMSelection/DeepSeekOptions";
+import ApiPieLLMOptions from "@/components/LLMSelection/ApiPieOptions";
+import NovitaLLMOptions from "@/components/LLMSelection/NovitaLLMOptions";
+import XAILLMOptions from "@/components/LLMSelection/XAiLLMOptions";
 
 import LLMItem from "@/components/LLMSelection/LLMItem";
 import System from "@/models/system";
@@ -97,6 +105,14 @@ const LLMS = [
     logo: OllamaLogo,
     options: (settings) => <OllamaLLMOptions settings={settings} />,
     description: "Run LLMs locally on your own machine.",
+  },
+  {
+    name: "Novita AI",
+    value: "novita",
+    logo: NovitaLogo,
+    options: (settings) => <NovitaLLMOptions settings={settings} />,
+    description:
+      "Reliable, Scalable, and Cost-Effective for LLMs from Novita AI",
   },
   {
     name: "LM Studio",
@@ -187,6 +203,20 @@ const LLMS = [
     description: "Run LiteLLM's OpenAI compatible proxy for various LLMs.",
   },
   {
+    name: "DeepSeek",
+    value: "deepseek",
+    logo: DeepSeekLogo,
+    options: (settings) => <DeepSeekOptions settings={settings} />,
+    description: "Run DeepSeek's powerful LLMs.",
+  },
+  {
+    name: "APIpie",
+    value: "apipie",
+    logo: APIPieLogo,
+    options: (settings) => <ApiPieLLMOptions settings={settings} />,
+    description: "A unified API of AI services from leading providers",
+  },
+  {
     name: "Generic OpenAI",
     value: "generic-openai",
     logo: GenericOpenAiLogo,
@@ -200,6 +230,13 @@ const LLMS = [
     logo: AWSBedrockLogo,
     options: (settings) => <AWSBedrockLLMOptions settings={settings} />,
     description: "Run powerful foundation models privately with AWS Bedrock.",
+  },
+  {
+    name: "xAI",
+    value: "xai",
+    logo: XAILogo,
+    options: (settings) => <XAILLMOptions settings={settings} />,
+    description: "Run xAI's powerful LLMs like Grok-2 and more.",
   },
   {
     name: "Native",
